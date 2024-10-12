@@ -830,7 +830,7 @@ class LyricsContainer extends react.Component {
 					{
 						className: "lyrics-lyricsContainer-LyricsUnavailableMessage",
 					},
-					this.state.isLoading ? LoadingIcon : "(• _ • )"
+					this.state.isLoading ? LoadingIcon : ""
 				)
 			);
 		}
